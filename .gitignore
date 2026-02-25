@@ -1,0 +1,29 @@
+# Vendor
+vendor/
+
+# CI4 writable
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/debugbar/*
+writable/uploads/*
+!writable/uploads/.gitkeep
+writable/attendance/*
+!writable/attendance/.gitkeep
+!writable/**/index.html
+
+# Environment
+.env
+
+# Build
+build/logs/*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
